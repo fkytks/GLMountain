@@ -185,6 +185,9 @@
   <ItemGroup>
     <ClInclude Include="ClassView.h" />
     <ClInclude Include="FileView.h" />
+    <ClInclude Include="FTEasyDI.h" />
+    <ClInclude Include="FTEasyGL.h" />
+    <ClInclude Include="FTVect3d.h" />
     <ClInclude Include="GLMountain.h" />
     <ClInclude Include="GLMountainDoc.h" />
     <ClInclude Include="GLMountainView.h" />
@@ -194,11 +197,16 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TFTEasyGLCharMan.h" />
+    <ClInclude Include="TFTEasyGLGround.h" />
     <ClInclude Include="ViewTree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ClassView.cpp" />
     <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="FTEasyDI.cpp" />
+    <ClCompile Include="FTEasyGL.cpp" />
+    <ClCompile Include="FTVect3d.cpp" />
     <ClCompile Include="GLMountain.cpp" />
     <ClCompile Include="GLMountainDoc.cpp" />
     <ClCompile Include="GLMountainView.cpp" />

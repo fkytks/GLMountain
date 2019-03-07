@@ -4,6 +4,9 @@
 
 #pragma once
 
+#include "FTEasyGL.h"
+#include "TFTEasyGLGround.h"
+#include "TFTEasyGLCharMan.h"
 
 class CGLMountainView : public CView
 {
@@ -17,6 +20,19 @@ public:
 
 // 操作
 public:
+
+protected:
+	FTEasyGL	m_gl;
+	TFTEasyGLGround	m_glground;
+	TFTEasyGLCharMan	m_glman;
+
+	FTVect3d	m_vectView;
+	int	m_nViewPitch;
+	int	m_nViewHead;
+	FTVect3d	m_vectMove;
+
+	BOOL	m_fMouseCapture;
+	POINT	m_ptBeforePoint;
 
 // オーバーライド
 public:
@@ -39,6 +55,15 @@ protected:
 
 // 生成された、メッセージ割り当て関数
 protected:
+	//{{AFX_MSG(CTestGL2View)
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+	afx_msg void OnDestroy();
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };
 
