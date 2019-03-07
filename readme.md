@@ -1,41 +1,41 @@
-GLMountain (GL�R�o��j
+GLMountain (GL山登り）
 ====
 
-�{�b�N�X���ςݏd�Ȃ����R��o��Q�[���̂悤�ȃf��
+ボックスが積み重なった山を登るゲームのようなデモ
 
 ## Description
 
-���L�����𑀍삵�ă����_���ɐ������ꂽ�R��o��Q�[���B
-���ɃN���A����Ȃǂ͂Ȃ����ǁA����܂ł�����Ɗ������B�����̋@���ɂ���Ă͒���܂ōs����R�[�X��������������Ȃ��B
-Nintendo64�Ń}���I64��V��ŁA3D�Q�[�����Ă������ȁ[�Ǝv���č����OpenGL�K��ł��B
+自キャラを操作してランダムに生成された山を登るゲーム。  
+特にクリア判定などはないけど、頂上までいけると嬉しい。乱数の機嫌によっては頂上まで行けるコースが無いかもしれない。  
+Nintendo64でマリオ64を遊んで、3Dゲームってすごいなーと思って作ったOpenGL習作です。  
 
 
 ## Demo
 
-�i���ƂŃX�N�V����\��j
+（あとでスクショを貼る）
 
 
 ## Requirement
 
-Windows�œ����܂��B
-�\�[�X����r���h����ꍇ�́AVisual Studio 2017���g���Ă��������BMFC�v���W�F�N�g�ł��B
+Windowsで動きます。  
+ソースからビルドする場合は、Visual Studio 2017を使ってください。MFCプロジェクトです。  
 
 
 ## Usage
 
-���L�����̈ړ��F
-�@�����E�����]���F�J�[�\���L�[
-�@�W�����v�F�X�y�[�X�L�[
+自キャラの移動：  
+　歩く・方向転換：カーソルキー  
+　ジャンプ：スペースキー  
 
 
 ## Install
 
-[Donwload](binary/GLMountain.zip)
+[Donwload](binary/GLMountain.zip)  
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)  
 
 ## Author
 
-[�h�R�J�m������](https://twitter.com/patsupyon)
+[ドコカノうさぎ](https://twitter.com/patsupyon)  
