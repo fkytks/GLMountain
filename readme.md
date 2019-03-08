@@ -30,7 +30,8 @@ Windowsで動きます。
 
 ## Install
 
-[Donwload](binary/GLMountain.zip)  
+以下からZipファイルをダウンロードして任意のフォルダに展開してください。  
+[Donwload](https://github.com/fkytks/GLMountain/releases/tag/ver.1.00)  
 
 ## Licence
 
