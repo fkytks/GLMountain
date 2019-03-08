@@ -12,7 +12,8 @@ Nintendo64でマリオ64を遊んで、3Dゲームってすごいなーと思っ
 
 ## Demo
 
-（あとでスクショを貼る）
+[動画](https://www.youtube.com/watch?v=CjwCxWtY-Os)
+
 
 
 ## Requirement
